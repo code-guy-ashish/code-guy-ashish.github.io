@@ -1008,9 +1008,12 @@ section {
 
 @media (max-width: 1199px) {
   #footer {
+    position: static; 
+    width: auto;
     padding-right: 20px 15px;
-    position: absolute; 
+    margin-top: 6.2vh;
+    /* position: absolute; 
     bottom: 0px; 
-    width: 100vw;
+    width: 100vw; */
   }
 }
